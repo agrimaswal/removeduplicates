@@ -1,4 +1,4 @@
-import java.util.Arrays;
+
 
 class Solution {
     public int removeDuplicates(int[] nums) {
@@ -17,11 +17,5 @@ class Solution {
         return i + 1;
     }
     
-    public static void main(String[] args) {
-        int[] nums = {1, 1, 2};
-        Solution solution = new Solution();
-        int k = solution.removeDuplicates(nums);
-        System.out.println("Output: " + k + ", nums = " + Arrays.toString(nums));
-    }
+  
 }
-
